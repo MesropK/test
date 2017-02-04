@@ -15,6 +15,7 @@
 		B228871D1E4633280026547A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B228871C1E4633280026547A /* Assets.xcassets */; };
 		B22887201E4633280026547A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B228871E1E4633280026547A /* LaunchScreen.storyboard */; };
 		B22887281E4634E50026547A /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = B22887271E4634E50026547A /* test.m */; };
+		B228872B1E4635BB0026547A /* testmest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B22887291E4635BB0026547A /* testmest.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		B228871F1E4633280026547A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B22887211E4633280026547A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B22887271E4634E50026547A /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
+		B22887291E4635BB0026547A /* testmest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testmest.cpp; sourceTree = "<group>"; };
+		B228872A1E4635BB0026547A /* testmest.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = testmest.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +50,8 @@
 			isa = PBXGroup;
 			children = (
 				B22887271E4634E50026547A /* test.m */,
+				B22887291E4635BB0026547A /* testmest.cpp */,
+				B228872A1E4635BB0026547A /* testmest.hpp */,
 				B228870C1E4633280026547A /* test */,
 				B228870B1E4633280026547A /* Products */,
 			);
@@ -156,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B228872B1E4635BB0026547A /* testmest.cpp in Sources */,
 				B22887281E4634E50026547A /* test.m in Sources */,
 				B22887151E4633280026547A /* ViewController.m in Sources */,
 				B228871B1E4633280026547A /* test.xcdatamodeld in Sources */,
